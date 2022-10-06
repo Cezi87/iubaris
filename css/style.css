@@ -1,3 +1,11 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -70,7 +78,7 @@ a:hover {
 #header-wrapper {
 	overflow: hidden;
 	height: 650px;
-	background: url(images/img01code_bw.jpg) repeat;
+	background: url(../images/img01code_bw.jpg) repeat;
 	background-position:center;
 }
 
@@ -337,7 +345,7 @@ a:hover {
 /* Three Column Footer Content */
 
 #footer-content-wrapper {
-	background: #F4F3EE url(images/img05.jpg) repeat;
+	background: #F4F3EE url('../images/img05.jpg') repeat;
 	margin-bottom:auto;
 	}
 
@@ -409,7 +417,7 @@ a:hover {
 	margin: 0 auto;
 	padding: 50px 0 15px 0;
 	font-family: 'Oswald', sans-serif;
-	background: #D6D6D6 url(images/img01codebtm_BW.jpg) repeat;
+	background: #D6D6D6 url('../images/img01codebtm_BW.jpg') repeat;
 }
 
 #footer p {
@@ -420,7 +428,7 @@ a:hover {
 	font-size: 14px;
 	text-transform: uppercase;
 	text-align: center;
-	color: #000000;
+	color: #c0c0c0;
 }
 
 #footer a {
